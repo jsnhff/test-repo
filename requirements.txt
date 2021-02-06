@@ -1,0 +1,6 @@
+pip
+pandas
+# spacy
+# neuralcoref
+xlrd # to read Excel files
+gdown # to download shared Gdrive files
