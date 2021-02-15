@@ -5,8 +5,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import "main";
-
 @keyframes morph {
   0% {border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;}
   100% {border-radius: 40% 60%;}
@@ -32,8 +30,9 @@ h1, h2, h3, h4, p {
 	padding: 0px 20px;
 }
 
-.container {
-	min-height: calc(100vh - 20px);
+/*
+.page-wrapper {
+	min-height: calc(100vh);
     flex-direction: column;
     align-items: stretch;
     justify-content: space-evenly;
@@ -41,6 +40,7 @@ h1, h2, h3, h4, p {
     position: relative;
 	border: solid 10px #0000FF;
 }
+*/
 
 .blob1 {
 	position: absolute;
@@ -66,7 +66,6 @@ h1, h2, h3, h4, p {
     width: 32vmax;
     height: 32vmax;
     animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse;
- //   transform-origin: 20% 20%;
 }
 
-// Thanks to these folks for the cool chapes and animations https://9elements.github.io/fancy-border-radius/#75.45.25.65--.
+/* Thanks to these folks for the cool chapes and animations https://9elements.github.io/fancy-border-radius/#75.45.25.65--. */
