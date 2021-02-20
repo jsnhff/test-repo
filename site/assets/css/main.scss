@@ -30,7 +30,7 @@ h1, h2, h3, h4, p {
 	padding: 0px 20px;
 }
 
-.blobs::before, .blob1::after {
+.blobs::before, .blobs::after {
     content: "";
     width: 30vmax;
     height: 30vmax;
