@@ -30,21 +30,23 @@ h1, h2, h3, h4, p {
 	padding: 0px 20px;
 }
 
-.blobs::before, .blobs::after {
+.blobs {
     content: "";
-    width: 30vmax;
-    height: 30vmax;
     position: absolute;
     background: rgba(0,0,255,1);
-    animation: morph 45s linear infinite alternate, spin 30s linear infinite;
-    z-index: -1;
     will-change: border-radius, transform;
     transform-origin: 55% 55%;
     pointer-events: none;
 	filter: blur(3px);
 }
 
-.blobs::before {
+.blob-one {
+    width: 30vmax;
+    height: 30vmax;
+    animation: morph 45s linear infinite alternate, spin 30s linear infinite;
+}
+
+.blob-two {
     width: 32vmax;
     height: 32vmax;
     animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse;

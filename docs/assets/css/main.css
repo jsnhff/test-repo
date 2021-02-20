@@ -14727,9 +14727,11 @@ body { background-color: #fff; margin: 0; }
 
 h1, h2, h3, h4, p { padding: 0px 20px; }
 
-.blobs::before, .blobs::after { content: ""; width: 30vmax; height: 30vmax; position: absolute; background: blue; -webkit-animation: morph 45s linear infinite alternate, spin 30s linear infinite; animation: morph 45s linear infinite alternate, spin 30s linear infinite; z-index: -1; will-change: border-radius, transform; transform-origin: 55% 55%; pointer-events: none; filter: blur(3px); }
+.blobs { content: ""; position: absolute; background: blue; will-change: border-radius, transform; transform-origin: 55% 55%; pointer-events: none; filter: blur(3px); }
 
-.blobs::before { width: 32vmax; height: 32vmax; animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse; }
+.blob-one { width: 30vmax; height: 30vmax; -webkit-animation: morph 45s linear infinite alternate, spin 30s linear infinite; animation: morph 45s linear infinite alternate, spin 30s linear infinite; }
+
+.blob-two { width: 32vmax; height: 32vmax; animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse; }
 
 /* Thanks to these folks for the cool chapes and animations https://9elements.github.io/fancy-border-radius/#75.45.25.65--. */
 @media (min-width: 640px) { .sm\:container { width: 100%; } }
