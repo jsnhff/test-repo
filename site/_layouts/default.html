@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}" class="overflow-hidden">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-  </head>
-  <body class="overflow-hidden">
-  <div class="h-screen relative z-0 border-solid border-blue-450 border-16">
-	<div class="blobs blob-one absolute top-0 -right-48 md:-right-40"></div>
-	<div class="blobs blob-two absolute bottom-16 -left-48 md:-left-72"></div>
-    {{ content }}
-  </div>
-  </body>
+
+  {% include head.html %}
+
+	<body class="overflow-hidden">
+
+    {% include header.html %}
+
+	<div class="h-screen relative z-0 border-solid border-blue-450 border-8">
+		<!-- blobs go here -->
+		<div class="blobs blob-one absolute top-0 -right-48 md:-right-40"></div>
+		<div class="blobs blob-two absolute bottom-16 -left-48 md:-left-72"></div>
+
+      {{ content }}
+
+    </div>
+
+    {% include footer.html %}
+
+    </body>
 </html>
