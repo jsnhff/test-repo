@@ -5,4 +5,4 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Test Repo" # the name of your site, e.g. ACME Corp.
 
 plugins:
-  - jekyll-postcss
+ - jekyll-postcss
