@@ -7,7 +7,10 @@
 
 @layer components {
   .btn-blue {
-    @apply py-2 px-5 bg-blue-450 text-white font-bold hover:bg-blue-700 focus:outline-none;
+    @apply py-2 px-5 bg-blue-450 text-white text-xl font-bold hover:bg-blue-700 focus:outline-none;
+  }
+  .btn-white {
+    @apply py-2 px-5 bg-white text-blue-450 text-xl font-bold hover:bg-blue-200 focus:outline-none;
   }
 }
 
@@ -30,10 +33,12 @@
 body {
 	background-color: #fff;
 	margin: 0;
+	font-family: 'PT Mono', monospace;	
+	color: #0000FF;
 }
 
-h1, h2, h3, h4, p {
-	padding: 0px 20px;
+h1, h2, h3, h4 {
+	font-weight: bold;
 }
 
 .blobs {
@@ -47,14 +52,20 @@ h1, h2, h3, h4, p {
 }
 
 .blob-one {
-    width: 30vmax;
-    height: 30vmax;
+    width: 20vmax;
+    height: 20vmax;
     animation: morph 45s linear infinite alternate, spin 30s linear infinite;
 }
 
+.blob-one-clone {
+    width: 25vmax;
+    height: 25vmax;
+    animation: morph 35s linear infinite alternate, spin 40s linear infinite;
+}
+
 .blob-two {
-    width: 32vmax;
-    height: 32vmax;
+    width: 22vmax;
+    height: 22vmax;
     animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse;
 }
 

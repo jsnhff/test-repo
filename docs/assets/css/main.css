@@ -755,11 +755,21 @@ img, video { max-width: 100%; height: auto; }
 
 .btn-blue:hover { --tw-bg-opacity: 1; background-color: rgba(29, 78, 216, var(--tw-bg-opacity)); }
 
-.btn-blue { font-weight: 700; }
+.btn-blue { font-weight: 700; font-size: 1.25rem; line-height: 1.75rem; }
 
 .btn-blue:focus { outline: 2px solid transparent; outline-offset: 2px; }
 
 .btn-blue { padding-top: 0.5rem; padding-bottom: 0.5rem; padding-left: 1.25rem; padding-right: 1.25rem; --tw-text-opacity: 1; color: rgba(255, 255, 255, var(--tw-text-opacity)); }
+
+.btn-white { --tw-bg-opacity: 1; background-color: rgba(255, 255, 255, var(--tw-bg-opacity)); }
+
+.btn-white:hover { --tw-bg-opacity: 1; background-color: rgba(191, 219, 254, var(--tw-bg-opacity)); }
+
+.btn-white { font-weight: 700; font-size: 1.25rem; line-height: 1.75rem; }
+
+.btn-white:focus { outline: 2px solid transparent; outline-offset: 2px; }
+
+.btn-white { padding-top: 0.5rem; padding-bottom: 0.5rem; padding-left: 1.25rem; padding-right: 1.25rem; --tw-text-opacity: 1; color: rgba(0, 0, 255, var(--tw-text-opacity)); }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(0px * var(--tw-space-y-reverse)); }
 
@@ -14733,15 +14743,17 @@ img, video { max-width: 100%; height: auto; }
 
 @keyframes spin { to { transform: rotate(1turn); } }
 
-body { background-color: #fff; margin: 0; }
+body { background-color: #fff; margin: 0; font-family: 'PT Mono', monospace; color: #0000FF; }
 
-h1, h2, h3, h4, p { padding: 0px 20px; }
+h1, h2, h3, h4 { font-weight: bold; }
 
 .blobs { content: ""; position: absolute; background: blue; will-change: border-radius, transform; transform-origin: 55% 55%; pointer-events: none; filter: blur(3px); }
 
-.blob-one { width: 30vmax; height: 30vmax; -webkit-animation: morph 45s linear infinite alternate, spin 30s linear infinite; animation: morph 45s linear infinite alternate, spin 30s linear infinite; }
+.blob-one { width: 20vmax; height: 20vmax; -webkit-animation: morph 45s linear infinite alternate, spin 30s linear infinite; animation: morph 45s linear infinite alternate, spin 30s linear infinite; }
 
-.blob-two { width: 32vmax; height: 32vmax; animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse; }
+.blob-one-clone { width: 25vmax; height: 25vmax; -webkit-animation: morph 35s linear infinite alternate, spin 40s linear infinite; animation: morph 35s linear infinite alternate, spin 40s linear infinite; }
+
+.blob-two { width: 22vmax; height: 22vmax; animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse; }
 
 /* Thanks to these folks for the cool chapes and animations https://9elements.github.io/fancy-border-radius/#75.45.25.65--. */
 @media (min-width: 640px) { .sm\:container { width: 100%; } }
