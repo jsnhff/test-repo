@@ -14743,17 +14743,17 @@ img, video { max-width: 100%; height: auto; }
 
 @keyframes spin { to { transform: rotate(1turn); } }
 
-body { background-color: #fff; margin: 0; font-family: 'PT Mono', monospace; color: #0000FF; }
+body { background-image: url("../img/blue_specks.svg"); background-size: 1000px 1000px; background-repeat: repeat; background-color: #FFFFFF; margin: 0; font-family: 'PT Mono', monospace; color: #0000FF; }
 
 h1, h2, h3, h4 { font-weight: bold; }
 
-.blobs { content: ""; position: absolute; background: blue; will-change: border-radius, transform; transform-origin: 55% 55%; pointer-events: none; filter: blur(3px); }
+.blobs { content: ""; position: absolute; background: blue; will-change: border-radius, transform; transform-origin: 55% 55%; pointer-events: none; }
 
-.blob-one { width: 20vmax; height: 20vmax; -webkit-animation: morph 45s linear infinite alternate, spin 30s linear infinite; animation: morph 45s linear infinite alternate, spin 30s linear infinite; }
+.blob-one { width: 10vmax; height: 10vmax; -webkit-animation: morph 45s linear infinite alternate, spin 30s linear infinite; animation: morph 45s linear infinite alternate, spin 30s linear infinite; }
 
 .blob-one-clone { width: 25vmax; height: 25vmax; -webkit-animation: morph 35s linear infinite alternate, spin 40s linear infinite; animation: morph 35s linear infinite alternate, spin 40s linear infinite; }
 
-.blob-two { width: 22vmax; height: 22vmax; animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse; }
+.blob-two { width: 12vmax; height: 12vmax; animation: morph 30s linear infinite alternate, spin 15s linear infinite reverse; }
 
 /* Thanks to these folks for the cool chapes and animations https://9elements.github.io/fancy-border-radius/#75.45.25.65--. */
 @media (min-width: 640px) { .sm\:container { width: 100%; } }
