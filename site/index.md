@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "regender.xyz"
 ---
 
 <img class="mx-auto" src="assets/img/raman_djafari_figure_transparent.gif" title="Raman Djafari illustrates how a character can continually transform" alt="Raman Djafari illustrates how a character can continually transform">
