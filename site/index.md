@@ -3,7 +3,7 @@ layout: default
 title: "Happy Jekylling!"
 ---
 
-<img class="mx-auto" src="assets/img/raman_djafari_figure.gif" title="Raman Djafari illustrates how a character can continually transform" alt="Raman Djafari illustrates how a character can continually transform">
+<img class="mx-auto" src="assets/img/raman_djafari_figure_transparent.gif" title="Raman Djafari illustrates how a character can continually transform" alt="Raman Djafari illustrates how a character can continually transform">
 
 <section class="grid grid-cols-6 gap-4 mt-16 mb-32">
 <h1 class="col-start-2 col-span-4 text-4xl">What if a character's gender could change?</h1>

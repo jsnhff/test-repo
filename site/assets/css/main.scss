@@ -31,7 +31,10 @@
 }
 
 body {
-	background-color: #fff;
+	background-image: url("../img/blue_specks.svg");
+	background-size: 1000px 1000px;
+	background-repeat: repeat;
+	background-color: #FFFFFF;
 	margin: 0;
 	font-family: 'PT Mono', monospace;	
 	color: #0000FF;
@@ -48,12 +51,11 @@ h1, h2, h3, h4 {
     will-change: border-radius, transform;
     transform-origin: 55% 55%;
     pointer-events: none;
-	filter: blur(3px);
 }
 
 .blob-one {
-    width: 20vmax;
-    height: 20vmax;
+    width: 10vmax;
+    height: 10vmax;
     animation: morph 45s linear infinite alternate, spin 30s linear infinite;
 }
 
@@ -64,9 +66,9 @@ h1, h2, h3, h4 {
 }
 
 .blob-two {
-    width: 22vmax;
-    height: 22vmax;
-    animation: morphx 30s linear infinite alternate, spin 45s linear infinite reverse;
+    width: 12vmax;
+    height: 12vmax;
+    animation: morph 30s linear infinite alternate, spin 15s linear infinite reverse;
 }
 
 /* Thanks to these folks for the cool chapes and animations https://9elements.github.io/fancy-border-radius/#75.45.25.65--. */
